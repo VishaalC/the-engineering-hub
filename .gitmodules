@@ -1,0 +1,7 @@
+[submodule "VishaalC/the-engineering-hub/readability-calculator"] 
+  path = VishaalC/the-engineering-hub/readability-calculator
+  url = https://github.com/VishaalC/readability-calculator
+  
+  [submodule "VishaalC/the-engineering-hub/Taylor-Series-Visualizer"] 
+  path = VishaalC/the-engineering-hub/Taylor-Series-Visualizer
+  url = https://github.com/VishaalC/Taylor-Series-Visualizer
