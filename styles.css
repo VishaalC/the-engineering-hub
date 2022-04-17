@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+  
+body {
+    min-height: 100vh;
+    font-family: "Source Sans Pro", sans-serif;
+    width: 700px;
+    margin: 0 auto;
+    background-color: rgb(227, 227, 236);
+}
+
+img {
+     position: relative;
+  top: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  margin-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
+h2 {
+    margin-top: 20px;
+    text-decoration: underline;
+}
+.intro-para {
+    margin-top: 20px;
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+    font-size: x-large;
+}
+
+.tpara {
+    margin-top: 15px;
+}
+
+
+
+.container {
+    margin: 2% auto;
+    padding: 15px;
+    background-color: #ffffff;
+}
