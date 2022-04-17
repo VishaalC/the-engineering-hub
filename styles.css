@@ -19,16 +19,17 @@ body {
 }
 
 img {
-     position: relative;
-  top: 15px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  margin-bottom: 50px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 45%;
+    position: relative;
+    top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 29px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
 }
 
 h2 {
