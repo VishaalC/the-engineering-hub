@@ -1,0 +1,97 @@
+.center{
+    display: flex;
+    align-items: center;
+}
+
+#head{
+    flex-grow: 1;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Source Sans Pro", sans-serif;
+    width: 700px;
+    margin: 0 auto;
+    background-color: rgb(227, 227, 236);
+}
+
+#o-wrap, #t-wrap {
+    background-color: #0e0f0e;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+.container {
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+#calc {
+    background-color: #0e0f0e;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 63px;
+}
+
+#input-wrap,#button-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+#func_input,#no_of_terms,#s{
+    font-size: 11px;
+    margin-left : 25px;
+    min-width: 20%;
+    background: #f2f2f2;
+    border-radius: 3px;
+    width: 50px;
+    height: 20px;
+}
+
+#result{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+#graph{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    margin-top: 20px;
+}
+
+#graphs{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#error,#taylor-graph{
+    margin-top: 10px;
+    margin-left: 20px;
+}

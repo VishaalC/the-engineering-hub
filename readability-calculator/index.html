@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900' rel='stylesheet' type='text/css'>
+    <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="./helpers.js"></script>
+    <title>Readability Calculator</title>
+  </head>
+  
+  <body>
+    <div class="container">
+      <h1>READABILITY CALCULATOR</h1>
+      <div id ="Coleman-liau index">
+        <br><h3>What is and how do we calculate readability?</h3>
+        <p>The Coleman–Liau index is a readability test designed by Meri Coleman and T. L. Liau to gauge the understandability of a text. Like the Flesch–Kincaid Grade Level, Gunning fog index, SMOG index, and Automated Readability Index, its output approximates the U.S. grade level thought necessary to comprehend the text.</p>
+        <p>The Coleman–Liau index is calculated with the following formula:<br>
+          <strong><i>CLI=0.0588L-0.296S-15.8</strong></i><br>
+          L is the average number of letters per 100 words and S is the average number of sentences per 100 words.<br><br></p>
+      </div>
+      <div id="main-input">
+        <div id="input-field">
+          <textarea placeholder="Enter text here" id="input" name="input" id="" cols="30" rows="10"></textarea>
+        </div> 
+        <br>
+        <div id="button-wrap">
+          <button id="letters">Letter frequency</button>
+          <button id="readab">Calculate Readability</button>
+          <button id="words-freq">Word Frequency</button>
+        </div>
+      </div>
+      <br>
+      <div class="output">
+        <div>Letters: <span id="Char">0</span></div>
+        <div>Words: <span id="word">0</span></div>
+        <div>Sentences: <span id="sen">0</span></div>
+        <div>Paragraphs: <span id="para">0</span></div>
+        <div>Readability: <span id="Read">0</span></div>
+      </div>
+    </div>
+    
+    <!--Results-->
+    <div id="graphs">
+      <canvas id="frequent" ></canvas>   
+    </div>
+    <script defer src="script.js"></script>
+  </body>
+</html>

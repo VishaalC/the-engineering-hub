@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taylor series</title>
+    <script
+      defer
+      src="https://unpkg.com/mathjs@10.4.1/lib/browser/math.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css"
+      integrity="sha384-KiWOvVjnN8qwAZbuQyWDIbfCLFhLXNETzBQjA/92pIowpC0d2O3nppDGQVgwd2nB"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js"
+      integrity="sha384-0fdwu/T/EQMsQlrHCCHoH10pkPLlKA1jL5dFyUOvB3lfeT2540/2g6YgSi2BL14p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/function-plot/dist/function-plot.js"></script>
+    <script src="./helpers.js"></script>
+    <script defer src="./script.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="center"><h1 id="head">Taylor Series Visualizer</h1></div>
+
+    <div id="input-wrap">
+      <input type="text" id="func_input" placeholder="Function" />
+      <input type="text" id="no_of_terms" placeholder="No of terms in series" />
+      <input type="text" id="s" placeholder="Point of interest">
+      <button id="calc">Calculate</button>
+    </div>
+      <div id="o-wrap">f(x):  <span id="original"></span></div>
+      <div id="t-wrap">Talyor estimated:<span id="taylor"></span></div>
+    <div id="graphs">
+      <div id="taylor-graph"></div>
+      <div id="error"></div>
+    </div>
+    </div>
+  </body>
+</html>
