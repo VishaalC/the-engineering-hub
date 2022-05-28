@@ -7,9 +7,11 @@ h1 {
     text-align: center;
     background-color: black;
     color: white;
+    font-weight: bold;
     padding: 10px;
 }
   
+body{}
 body {
     min-height: 100vh;
     font-family: "Source Sans Pro", sans-serif;
@@ -34,6 +36,12 @@ img {
 
 h2 {
     margin-top: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h3 {
+    font-weight: bold;
     text-decoration: underline;
 }
 .intro-para {
